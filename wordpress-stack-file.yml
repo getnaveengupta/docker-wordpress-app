@@ -16,7 +16,7 @@ services:
     ports:
       - 80:80
     deploy:
-      replicas: 6
+      replicas: 2
       update_config:
         parallelism: 2
       restart_policy:
